@@ -1,14 +1,14 @@
 module.exports = {
     bot: {
         tokens: [
-          "MTMxNDE1MDc4ODAxMTkxNzM0Mg.GUgmEW.cKyN271J3mdKAuaWbCHv0xunBS8I-DGkxUpoQ0",              // Main bot token - Replace with your actual token
+          "MTMzNDk0Mzg1MDUzOTY0Njk3Ng.Gw6Ni4.SJrzqZ4AUH84udIeiLwbWfbM6nrsTGvgEFrcTo",              // Main bot token - Replace with your actual token
         //  "YOUR_SECOND_BOT_TOKEN_HERE",      // 2 bot token - Uncomment and replace to use
         //  "YOUR_THIRD_BOT_TOKEN_HERE",       // 3 bot token - Uncomment and replace to use
         //  "YOUR_FOURTH_BOT_TOKEN_HERE",      // 4 bot token - Uncomment and replace to use
         //  "YOUR_FIFTH_BOT_TOKEN_HERE",       // 5 bot token - Uncomment and replace to use
         ].filter(Boolean),
 
-        defaultLanguage: 'ar', // ar | en لغة البوت
+        defaultLanguage: 'en', // ar | en لغة البوت
         
         activity: {
             name: 'BOT', // رسالة حالة البوت
@@ -17,8 +17,8 @@ module.exports = {
         }
     },
     server: {
-        guildId: '1223045204152422551',         // ايدي السيرفر
-        broadcastRoleId: '1358254684502229154', // ايدي الرول اللي يستخدم عليها البوت
+        guildId: '739408333362036746',         // ايدي السيرفر
+        broadcastRoleId: '1354415856356163616', // ايدي الرول اللي يستخدم عليها البوت
         reportChannelId: '1360039251403608205' // ايدي الروم اللي يرسل فيه البوت التقارير
     },
     broadcast: {
